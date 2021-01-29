@@ -1,4 +1,4 @@
-# Emotion-Recognition-using-Deep Learning
+# Emotion recognition using Deep Learning
 
 In this project, we approach the problem by taking deep-learning method of Convolutional Neural Networks (CNN), which integrates the step of handcrafted feature extraction with training of classifier. This system is able to achieve the relatively most optimal solution through the process of backpropagation.
 
