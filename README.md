@@ -1,6 +1,6 @@
 # Emotion recognition using Deep Learning
 
-In this project, we approach the problem by taking deep-learning method of Convolutional Neural Networks (CNN), which integrates the step of handcrafted feature extraction with training of classifier. This system is able to achieve the relatively most optimal solution through the process of backpropagation.
+This project is implemented using deep-learning method of Convolutional Neural Networks (CNN), which integrates the step of handcrafted feature extraction with training of classifier. This system is able to achieve the relatively most optimal solution through the process of backpropagation.
 
 ## Install
 
@@ -14,8 +14,8 @@ This project requires Python 3.2 or higher version and following Python librarie
 *	NLTK 3.2.4
 
 ## Datasets
-Thedata set used to train the model is fer2013 which is an open-source data set that was made publicly available for a Kaggle competition. It contains 48 X 48-pixel grayscale images of the face. There are seven categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral) present in the data. 
-The model is tested on images from COCO dataset.
+The data set used to train the model is FER2013 which is an open-source data set that was made publicly available for a Kaggle competition. It contains 48 X 48-pixel grayscale images of the face. There are seven categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral) present in the data. 
+The other dataset used for validation purpose is COCO dataset. The images from COCO are fetched, filtered, resized, converted to gray scale and then used for testing the model.
 Coco dataset: https://cocodataset.org/#home
 
 To run the iPython notebook, simply enter:
